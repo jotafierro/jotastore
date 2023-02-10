@@ -1,7 +1,10 @@
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => (
-  <h1>Hello World</h1>
+  <>
+    <Navbar />
+  </>
 )
 
 export default App

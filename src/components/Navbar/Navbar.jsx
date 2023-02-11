@@ -1,14 +1,12 @@
-import Logo from '../Logo/Logo'
+import Brand from '../Brand/Brand'
+import NavContainer from '../NavContainer/NavContainer'
 import './Navbar.scss'
 
 const Navbar = () => {
   return (
     <header className='header'>
-      <div className='header__brand-container'>
-        <Logo />
-        <span>JotaStore</span>
-      </div>
-      <nav>links</nav>
+      <Brand />
+      <NavContainer />
       <div>carrito</div>
     </header>
   )

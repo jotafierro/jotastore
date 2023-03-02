@@ -4,7 +4,7 @@ import './NavContainer.scss'
 const links = [{
   "id": 1,
   "to": "http://dummyimage.com/182x100.png/dddddd/000000",
-  "name": "Sale"
+  "name": "Smartphones"
 }, {
   "id": 2,
   "to": "http://dummyimage.com/136x100.png/cc0000/ffffff",

@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom'
+
 import Logo from '../Logo/Logo'
 import './Brand.scss'
 
 const Brand = () => (
-  <div className='brand-container'>
+  <Link to='/' className='brand-container'>
     <Logo />
     <span>JotaStore</span>
-  </div>
+  </Link>
 )
 
 export default Brand

@@ -1,5 +1,5 @@
 import Brand from '../Brand/Brand'
-import CardWidget from '../CardWidget/CardWidget'
+import CartWidget from '../CartWidget/CartWidget'
 import NavContainer from '../NavContainer/NavContainer'
 import './Navbar.scss'
 
@@ -8,7 +8,7 @@ const Navbar = () => {
     <header className='header'>
       <Brand />
       <NavContainer />
-      <CardWidget qty={5} />
+      <CartWidget qty={5} />
     </header>
   )
 }

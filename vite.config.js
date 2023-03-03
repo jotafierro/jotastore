@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/jotastore/',
   plugins: [react(), eslint()],
   resolve: {
     alias: {

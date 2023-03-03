@@ -5,7 +5,7 @@ import Logo from '@/components/Logo/Logo'
 import './Brand.scss'
 
 const Brand = () => (
-  <Link to='/' className='brand-container'>
+  <Link to='/jotastore/' className='brand-container'>
     <Logo />
     <span>JotaStore</span>
   </Link>

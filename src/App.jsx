@@ -12,9 +12,9 @@ const App = () => (
     <Navbar />
     <div className="app">
       <Routes>
-        <Route exact path='/' element={<ProductList />} />
-        <Route exact path='/category/:category' element={<ProductList />} />
-        <Route exact path='/product/:productId' element={<ProductDetail />} />
+        <Route exact path='/jotastore/' element={<ProductList />} />
+        <Route exact path='/jotastore/category/:category' element={<ProductList />} />
+        <Route exact path='/jotastore/product/:productId' element={<ProductDetail />} />
       </Routes>
     </div>
   </BrowserRouter>

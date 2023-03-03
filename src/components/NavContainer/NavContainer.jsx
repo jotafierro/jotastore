@@ -4,23 +4,23 @@ import './NavContainer.scss'
 
 const links = [{
   "id": 1,
-  "to": "/category/smartphones",
+  "to": "/jotastore/category/smartphones",
   "name": "Smartphones"
 }, {
   "id": 2,
-  "to": "/category/laptops",
+  "to": "/jotastore/category/laptops",
   "name": "Laptops"
 }, {
   "id": 3,
-  "to": "/category/fragrances",
+  "to": "/jotastore/category/fragrances",
   "name": "Fragrances"
 }, {
   "id": 4,
-  "to": "/category/skincare",
+  "to": "/jotastore/category/skincare",
   "name": "Skincare"
 }, {
   "id": 5,
-  "to": "/category/groceries",
+  "to": "/jotastore/category/groceries",
   "name": "Groceries"
 }]
 

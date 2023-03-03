@@ -6,7 +6,7 @@ import './ProductCard.scss'
 
 const ProductCard = ({ product }) => {
   return (
-    <Link to={`/product/${product.id}`} className='product-card'>
+    <Link to={`/jotastore/product/${product.id}`} className='product-card'>
       <img src={product.image} alt={product.title} />
       <h3>{product.title}</h3>
       <p>{dollarFormat(product.price)}</p>

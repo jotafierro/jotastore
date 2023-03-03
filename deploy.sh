@@ -5,7 +5,6 @@
 # @/App.jsx
 # @/components/Brand/Brand.jsx
 # @/components/NavContainer/NavContainer.jsx
-# @/components/Brand/Brand.jsx
 # @/components/ProductCard/ProductCard.jsx
 
 # this example is from https://vitejs.dev/guide/static-deploy.html#github-pages

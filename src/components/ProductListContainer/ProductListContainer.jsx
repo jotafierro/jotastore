@@ -1,5 +1,6 @@
+import ProductCard from '@/components/ProductCard/ProductCard';
+
 import './ProductListContainer.scss'
-import ProductCard from '../ProductCard/ProductCard';
 
 const ProductListContainer = ({ products }) => {
   return (

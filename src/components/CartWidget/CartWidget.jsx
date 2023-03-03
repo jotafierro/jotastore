@@ -1,5 +1,6 @@
-import './CartWidget.scss'
 import 'boxicons'
+
+import './CartWidget.scss'
 
 const CardWidget = ({ qty }) => {
   return (

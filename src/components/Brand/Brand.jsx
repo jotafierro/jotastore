@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
-import Logo from '../Logo/Logo'
+import Logo from '@/components/Logo/Logo'
+
 import './Brand.scss'
 
 const Brand = () => (

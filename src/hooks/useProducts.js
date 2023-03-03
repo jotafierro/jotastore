@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+
 import { getProducts } from '@/services/products'
 
 const useProducts = ({ category }) => {

@@ -1,11 +1,11 @@
 import { useParams } from 'react-router-dom'
 
-import Loader from '../../components/Loader/Loader';
-import CenterContainer from '../../components/CenterContainer/CenterContainer';
+import Loader from '@/components/Loader/Loader';
+import CenterContainer from '@/components/CenterContainer/CenterContainer';
+import ProductListContainer from '@/components/ProductListContainer/ProductListContainer'
 
-import useProducts from '../../hooks/useProducts';
+import useProducts from '@/hooks/useProducts';
 
-import ProductListContainer from '../../components/ProductListContainer/ProductListContainer'
 import './ProductList.scss'
 
 const List = ({ products }) => (

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import { getProduct } from '../services/products'
+import { getProduct } from '@/services/products'
 
 const useProduct = (productId) => {
   const [loading, setLoading] = useState(false)

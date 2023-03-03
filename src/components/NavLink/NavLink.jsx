@@ -1,5 +1,6 @@
-import './NavLink.scss'
 import { Link } from 'react-router-dom';
+
+import './NavLink.scss'
 
 const NavLink = ({ to, name }) => (
   <Link

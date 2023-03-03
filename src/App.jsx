@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.scss'
 
 import Navbar from '@/components/Navbar/Navbar'
 
-import ProductList from "./routes/ProductList/ProductList";
-import ProductDetail from './routes/ProductDetail/ProductDetail';
+import ProductList from "@/routes/ProductList/ProductList";
+import ProductDetail from '@/routes/ProductDetail/ProductDetail';
+
+import './App.scss'
 
 const App = () => (
   <BrowserRouter>

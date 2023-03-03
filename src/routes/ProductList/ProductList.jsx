@@ -10,7 +10,7 @@ import './ProductList.scss'
 
 const List = ({ products }) => (
   products.length === 0
-    ? <CenterContainer><p>No hay productos</p></CenterContainer>
+    ? <CenterContainer><p>There are no products!</p></CenterContainer>
     : <ProductListContainer products={products}/>
 )
 

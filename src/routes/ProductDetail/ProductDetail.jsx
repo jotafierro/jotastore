@@ -42,7 +42,7 @@ const Detail = ({ product }) => {
           </p>
         </div>
       </div>
-    : <CenterContainer><p>No existe el producto</p></CenterContainer>
+    : <CenterContainer><p>Product does not exist!</p></CenterContainer>
 }
 
 const ProductDetail = () => {

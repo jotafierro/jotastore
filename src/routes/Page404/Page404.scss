@@ -1,0 +1,23 @@
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    z-index: 1;
+    font-size: 4rem;
+  }
+
+  img {
+    margin-top: -200px;
+    margin-bottom: -100px;
+  }
+
+  a {
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #2670fb;
+    text-decoration: none;
+  }
+}

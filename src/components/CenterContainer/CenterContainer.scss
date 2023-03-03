@@ -1,0 +1,9 @@
+.center-container {
+  display: flex;
+  height: calc(100vh - 80px);
+  align-items: center;
+
+  p {
+    font-size: 2rem;
+  }
+}

@@ -1,15 +1,14 @@
 import './NavLink.scss'
+import { Link } from 'react-router-dom';
 
 const NavLink = ({ to, name }) => (
-  <a
+  <Link
     alt={name}
     className="nav-link"
-    href={to}
-    rel="noreferrer"
-    target='_blank'
+    to={to}
     >
       {name}
-  </a>
+  </Link>
 )
 
 export default NavLink

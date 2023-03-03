@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import { dollarFormat } from '../../utils/dollarFormat';
+
 import './ProductCard.scss'
 
 const ProductCard = ({ product }) => {

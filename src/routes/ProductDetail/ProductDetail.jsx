@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom';
 
-import Loader from '../../components/Loader/Loader';
-import CenterContainer from '../../components/CenterContainer/CenterContainer';
-import { dollarFormat } from '../../utils/dollarFormat';
+import Loader from '@/components/Loader/Loader';
+import CenterContainer from '@/components/CenterContainer/CenterContainer';
+import { dollarFormat } from '@/utils/dollarFormat';
 
-import useProduct from '../../hooks/useProduct';
+import useProduct from '@/hooks/useProduct';
 
 import './ProductDetail.scss'
 

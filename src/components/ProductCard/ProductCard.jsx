@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import { dollarFormat } from '../../utils/dollarFormat';
 import './ProductCard.scss'
 
 const ProductCard = ({ product }) => {
@@ -7,7 +8,7 @@ const ProductCard = ({ product }) => {
     <Link to={`/product/${product.id}`} className='product-card'>
       <img src={product.image} alt={product.title} />
       <h3>{product.title}</h3>
-      <p>{product.price}</p>
+      <p>{dollarFormat(product.price)}</p>
     </Link>
   )
 }

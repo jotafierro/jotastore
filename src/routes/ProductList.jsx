@@ -16,13 +16,11 @@ const ProductList = () => {
 
   return (
     <>
-      <h1>{category}</h1>
       {
         products.length === 0
           ? <p>No hay productos</p>
           : <ProductListContainer products={products}/>
       }
-
     </>
   )
 }
